@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.env
+*.venv
+*.pip
+*.egg-info/
+*.egg
+
+# Django
+*.sqlite3
+*.log
+*.pot
+*.pyc
+local_settings.py
+media/
+staticfiles/
+db.sqlite3
+
+# Pytest
+.cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+*.env
+docker-compose.override.yml
+*.log
+*.pid
+*.sock
+
+# Distribution / Packaging
+build/
+dist/
+*.tar.gz
+*.whl
+*.egg-info/
+
+# Misc
+*.DS_Store
+*.bak
+*.tmp
